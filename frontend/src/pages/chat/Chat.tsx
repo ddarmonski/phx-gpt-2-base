@@ -638,7 +638,7 @@ const Chat = () => {
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>Welcome to Phoenix GPT</h1>
+                                <h1 className={styles.chatEmptyStateTitle}>Welcome to PHOENIX GPT</h1>
                                 <h2 className={styles.chatEmptyStateSubtitle}>Start Chatting</h2>
                             </Stack>
                         ) : (

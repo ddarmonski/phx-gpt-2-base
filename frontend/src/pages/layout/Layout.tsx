@@ -7,6 +7,7 @@ import { useContext, useEffect, useState } from "react";
 import { HistoryButton, ShareButton } from "../../components/common/Button";
 import { AppStateContext } from "../../state/AppProvider";
 import { CosmosDBStatus } from "../../api";
+import PHOENIXLOGO from "../../assets/PHX-logo-chat.png";
 import TermsAndConditionsDialog from '../../TermsAndConditionsDialog';  
 
 
@@ -55,7 +56,7 @@ const Layout = () => {
                 <Stack horizontal verticalAlign="center" horizontalAlign="space-between">
                     <Stack horizontal verticalAlign="center">
                         <img
-                            src={PHXGPT}
+                            src={PHOENIXLOGO}
                             className={styles.headerIcon}
                             aria-hidden="true"
                         />
